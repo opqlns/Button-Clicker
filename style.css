@@ -1,0 +1,85 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    min-height: 100px;
+    background-color: bisque;
+    width: 800px;
+    padding: 50px;
+
+}
+
+.nav button {
+    background-color: #18a2b8;
+    color: black;
+    height: 35px;
+    width: 100px;
+    box-shadow: 5px 10px;
+    border: 3px solid black;
+    
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1.2em;
+}
+
+.flex-start{
+    align-items: flex-start;
+    
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.container{
+    min-height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+    width: 800px;
+    padding: 25px;
+}
+
+.hero {
+    min-height: 500px;
+    background-color: hotpink;
+    flex: 2;
+    padding: 25px;
+
+}
+
+.row-1{
+    min-height: 200px;
+    background-color: coral;
+}
+
+.row-2{
+    min-height: 200px;
+    background-color: teal;
+}
+
+.sidebar {
+    height: 200px;
+    background-color: lawngreen;
+    flex: 1;
+    padding: 25px;
+}
+
+.title{
+    flex: 1;
+}
+
+.description{
+    flex:2;
+}
+
+.descripion button{
+    background-color: green;
+}
