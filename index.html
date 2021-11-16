@@ -11,40 +11,41 @@
     <header>
         <div class="nav flexed">
             <h1 class="nav-title">Dojonary</h1>
-            <div class="search flex-start">
-                <p>search</p>
+            <div class ="search flex-start">
+                <input type="text" name="search" placeholder="Search"> 
+                <label for="search"></label>
             </div>
             <button onclick="turnOff(this)">Login</button>
         </div>
     </header>
     <div class="container flexed">
         <div class="hero flexed flex-direction">
-            <div class="row-1 flexed">
+            <div class="row-1 flexed border">
                 <div class="title">
                     <h1>ninja</h1>
-                    <h3>noun</h3>
-                    <h3>Plural:ninjas</h3>
-                    <button onclick="alert('Ninja was liked')"> Likes</button>
+                    <h3 class="noun">noun</h3>
+                    <h3 class="plural">Plural:ninjas</h3>
+                    <button class="btn" onclick="alert('Ninja was liked')"> Likes</button>
                 </div>
                 <div class="description">
-                    <h3>A practioner skilled in the Japanese art of ninjutsu</h3>
+                    <h3 class="definition">A practioner skilled in the Japanese art of ninjutsu</h3>
                 </div>
             </div>
-            <div class="row-2 flexed">
+            <div class="row-2 flexed border">
                 <div class="title">
                     <h1>ninja</h1>
-                    <h3>noun</h3>
-                    <h3>Plural:ninjas</h3>
-                    <button onclick="alert('Ninja was liked')"> 37 Likes
+                    <h3 class="noun">noun</h3>
+                    <h class="plural"3>Plural:ninjas</h3>
+                    <button class ="btn" onclick="alert('Ninja was liked')"> 37 Likes
                     </button>
                 </div>
                 <div class="description">
-                    <h3>A programmer who breaks down problems with zen-like focus</h3>
+                    <h3 class="definition">A programmer who breaks down problems with zen-like focus</h3>
             </div>
         </div>
     </div>
-    <div class="sidebar">
-        <div class="add_def">
+    <div class="sidebar border">
+        <div class="add_def flexed flex-direction">
             <h2>Dojonary is defined by YOU</h2>
             <button onclick="remove(this)"> Add Definition </button>
         </div>

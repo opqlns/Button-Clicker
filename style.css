@@ -6,12 +6,19 @@
 }
 
 header{
-    min-height: 100px;
-    background-color: bisque;
+    background-color: #cccccc;
     width: 800px;
-    padding: 50px;
+    padding: 15px 50px;
 
 }
+
+input{
+    height: 35px ;
+    width: 250px;
+    border: 3px solid black;
+    margin-top: 2.5px;
+}
+
 
 .nav button {
     background-color: #18a2b8;
@@ -19,7 +26,7 @@ header{
     height: 35px;
     width: 100px;
     box-shadow: 5px 10px;
-    border: 3px solid black;
+    border: 3px solid white;
     
 }
 
@@ -41,7 +48,7 @@ header{
 
 .container{
     min-height: 500px;
-    background-color: grey;
+    /* background-color: grey; */
     margin: 0 auto;
     width: 800px;
     padding: 25px;
@@ -49,31 +56,42 @@ header{
 
 .hero {
     min-height: 500px;
-    background-color: hotpink;
+    /* background-color: hotpink; */
     flex: 2;
-    padding: 25px;
 
 }
 
 .row-1{
     min-height: 200px;
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .row-2{
     min-height: 200px;
-    background-color: teal;
+    /* background-color: teal; */
+    margin-bottom: 50px;
 }
 
 .sidebar {
     height: 200px;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
     flex: 1;
     padding: 25px;
 }
 
 .title{
     flex: 1;
+    padding: 25px;
+}
+
+.title h1, h3{
+    margin-bottom: 5px;
+    margin: 0 auto;
+}
+
+
+.title button{
+    margin-top: 25px;
 }
 
 .description{
@@ -82,4 +100,45 @@ header{
 
 .descripion button{
     background-color: green;
+}
+
+/* .search{
+    border: 3px solid black;
+    width: 250px;
+} */
+
+.btn{
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 100px;
+    box-shadow: 5px 10px;
+    border: 3px solid black;
+    
+}
+
+.add_def button{
+    background-color: green;
+    color: black;
+    height: 40px;
+    width: 150px;
+    box-shadow: 5px 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.definition{
+    margin: 70px 0px;
+}
+
+.noun{
+    margin-left: 15px;
+}
+
+.plural{
+    margin-left: 10px;
+}
+
+.border{
+    border: 2.5px solid black;
 }
