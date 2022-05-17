@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -15,7 +15,7 @@ header{
 input{
     height: 35px ;
     width: 250px;
-    border: 3px solid black;
+    border: 2px solid black;
     margin-top: 2.5px;
 }
 
@@ -25,8 +25,8 @@ input{
     color: white;
     height: 35px;
     width: 100px;
-    box-shadow: 5px 5px black;
-    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
     
 }
 
@@ -108,22 +108,22 @@ input{
 } */
 
 .btn{
-    background-color: yellow;
+    background-color: rgb(188, 161, 218);
     color: black;
     height: 40px;
     width: 100px;
-    box-shadow: 5px 10px;
-    border: 3px solid black;
+    box-shadow: 2px 2px;
+    border: 2px solid black;
     
 }
 
 .add_def button{
-    background-color: green;
+    background-color: rgb(202, 88, 88);
     color: black;
     height: 40px;
     width: 150px;
-    box-shadow: 5px 10px;
-    border: 3px solid black;
+    box-shadow: 2px 2px;
+    border: 2px solid black;
     margin-top: 10px;
 }
 
@@ -140,5 +140,5 @@ input{
 }
 
 .border{
-    border: 2.5px solid black;
+    border: 1px solid black;
 }
